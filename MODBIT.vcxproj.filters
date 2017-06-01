@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{43de1f2b-1a79-4ca5-9ae0-1967dcba40e6}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{285e94de-b56a-4ccc-8325-869a985adf50}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{87e1157d-171a-40e3-981e-4d439e50a77d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Base">
+      <UniqueIdentifier>{512b60cb-194b-412b-b48c-da8870cecd11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Example">
+      <UniqueIdentifier>{dbc26070-0590-4077-8097-db4000da2686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Blur">
+      <UniqueIdentifier>{4904c14f-a27b-4f0c-b02e-a649d39cb765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Brush">
+      <UniqueIdentifier>{7c64d4b3-ad17-48f6-9134-3385357cd356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\GreyScale">
+      <UniqueIdentifier>{a9461532-984f-4db5-88f4-763cd3f5d55e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Pencil">
+      <UniqueIdentifier>{7f2aad97-e3e0-4229-86c4-c610302e6ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Undo /  Redo">
+      <UniqueIdentifier>{46dbd046-810c-4eef-a442-63b5935743a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Rotate">
+      <UniqueIdentifier>{063397b2-4c32-4250-bde3-029a1595e6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Dropper">
+      <UniqueIdentifier>{197b5e11-9f28-4262-9503-33e583f36090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Rectangle">
+      <UniqueIdentifier>{e38e3847-c68c-4202-be53-221410cf31bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Flip">
+      <UniqueIdentifier>{6ec56fae-10aa-4022-afd3-83b30302a82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Mirror">
+      <UniqueIdentifier>{28957a8c-8100-4870-b8a3-28725c466d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Resize">
+      <UniqueIdentifier>{2340cb5d-b2fe-449e-a467-24d136f2b6ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Stretch">
+      <UniqueIdentifier>{a219c943-79f9-4319-93d6-c435a0383588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Fill">
+      <UniqueIdentifier>{174c2846-5677-4834-a109-b6d1fb8edcef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Eraser">
+      <UniqueIdentifier>{bcca1444-e067-4e4b-976e-dbd713f1946f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\RegBrush">
+      <UniqueIdentifier>{3f049d3f-885e-4b34-85fa-4edfbd067110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Line">
+      <UniqueIdentifier>{376dea68-f46f-496d-a38d-4fcf0ad3e0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Line Gradient">
+      <UniqueIdentifier>{503a3ea6-40d7-49b3-9129-5ecb2bfd0e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Colour Tool Box">
+      <UniqueIdentifier>{6ea1073a-a95a-4fdc-aa86-2def96dc099e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Main_Window.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Main_Window.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_Main_Window.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_Data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Load_Img.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="toolBox.cpp">
+      <Filter>Tools\Colour Tool Box</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_toolBox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_toolBox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Base.cpp">
+      <Filter>Tools\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Example.cpp">
+      <Filter>Tools\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Blur.cpp">
+      <Filter>Tools\Blur</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Brush.cpp">
+      <Filter>Tools\Brush</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Greyscale.cpp">
+      <Filter>Tools\GreyScale</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Pencil.cpp">
+      <Filter>Tools\Pencil</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Undo.cpp">
+      <Filter>Tools\Undo /  Redo</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Redo.cpp">
+      <Filter>Tools\Undo /  Redo</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Rotate.cpp">
+      <Filter>Tools\Rotate</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Dropper.cpp">
+      <Filter>Tools\Dropper</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Rectangle.cpp">
+      <Filter>Tools\Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Flip_H.cpp">
+      <Filter>Tools\Flip</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Flip_V.cpp">
+      <Filter>Tools\Flip</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Mirror.cpp">
+      <Filter>Tools\Mirror</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Resize.cpp">
+      <Filter>Tools\Resize</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Stretch.cpp">
+      <Filter>Tools\Stretch</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Fill.cpp">
+      <Filter>Tools\Fill</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Eraser.cpp">
+      <Filter>Tools\Eraser</Filter>
+    </ClCompile>
+    <ClCompile Include="t_RegBrush.cpp">
+      <Filter>Tools\RegBrush</Filter>
+    </ClCompile>
+    <ClCompile Include="t_Line.cpp">
+      <Filter>Tools\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="t_threeDLine.cpp">
+      <Filter>Tools\Line Gradient</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Main_Window.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Main_Window.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Main_Window.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="toolBox.h">
+      <Filter>Tools\Colour Tool Box</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resize.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_Main_Window.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Load_Img.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Base.h">
+      <Filter>Tools\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Example.h">
+      <Filter>Tools\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Blur.h">
+      <Filter>Tools\Blur</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Brush.h">
+      <Filter>Tools\Brush</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Greyscale.h">
+      <Filter>Tools\GreyScale</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Pencil.h">
+      <Filter>Tools\Pencil</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Undo.h">
+      <Filter>Tools\Undo /  Redo</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Redo.h">
+      <Filter>Tools\Undo /  Redo</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Rotate.h">
+      <Filter>Tools\Rotate</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Dropper.h">
+      <Filter>Tools\Dropper</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Rectangle.h">
+      <Filter>Tools\Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Flip_H.h">
+      <Filter>Tools\Flip</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Flip_V.h">
+      <Filter>Tools\Flip</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Mirror.h">
+      <Filter>Tools\Mirror</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Resize.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Resize.h">
+      <Filter>Tools\Resize</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Stretch.h">
+      <Filter>Tools\Stretch</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Fill.h">
+      <Filter>Tools\Fill</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Eraser.h">
+      <Filter>Tools\Eraser</Filter>
+    </ClInclude>
+    <ClInclude Include="t_RegBrush.h">
+      <Filter>Tools\RegBrush</Filter>
+    </ClInclude>
+    <ClInclude Include="t_Line.h">
+      <Filter>Tools\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="t_threeDLine.h">
+      <Filter>Tools\Line Gradient</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
